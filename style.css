@@ -1,0 +1,25 @@
+body {
+    background-color: antiquewhite;
+    display: flex;
+}
+form {
+    height: 40px;
+    font-size: 20px;
+    color: blue;
+}
+.githubUsers {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+}
+.githubUsers a {
+    text-decoration: none;
+    color: darkred;
+    text-transform: uppercase;
+}
+.userList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
